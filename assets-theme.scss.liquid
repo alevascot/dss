@@ -1,0 +1,108 @@
+/*
+  ************************************************************
+	MEGA MENU tweaks
+	MAXX 10-12-2018
+  ************************************************************
+*/
+
+
+.site-navigation-wrapper .navmenu-brands-list {
+  -webkit-flex-basis: 540px;
+  -ms-flex-preferred-size: 540px;
+  flex-basis: 540px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 225px;
+  padding-right: $local-padding;
+  padding-left: $local-padding;  
+  	.navmenu-item {
+  		margin-bottom: 20px;
+	}
+  
+  .navmenu-item-logo {
+      width: 90px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 15px;
+
+    img {
+      display: inline-block; 
+      max-width: 100%;
+    }
+
+    .navmenu-item-logo-a {
+      padding: 0;
+    }
+  }
+
+  .navmenu-item-desc {
+      font-weight: 300;
+      display: block;
+      font-size: 15px;
+      margin-top: 14px;
+      word-wrap: normal;
+      white-space: normal;
+      text-align: left;
+  }
+
+  .navmenu-item-a-inline {
+    padding: 0 !important;
+    text-transform: uppercase;
+  }
+  
+  .navmenu-link {
+    display: none;
+  }
+ 
+
+}
+
+
+.navmenu-meganav.navmenu-meganav--desktop .navmenu-brands-list .navmenu-item-text {
+  display: inline-block;
+  max-width: 85%;
+  vertical-align: middle;
+}
+
+
+.site-mobile-nav {
+  .navmenu-brands-list{
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+
+    /*
+    padding: 0 20px;
+    text-align: center;
+    .navmenu-item-text {
+      padding: 0.8125rem 0.5625rem;
+    }*/
+      .navmenu-item-text,
+      .navmenu-item-desc,
+      .navmenu-item-logo {
+        display: none;
+      }
+
+  }
+  
+  .navmenu-meganav--image-container {
+    display: none;
+  }  
+    
+}
+ 
+
+/*
+  ************************************************************
+	MEGA MENU tweaks :: END
+  ************************************************************
+*/
